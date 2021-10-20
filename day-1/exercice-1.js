@@ -1,7 +1,10 @@
 export const  my_display_alpha = () => {
-  if(typeof a != "number" || typeof b != "number")
+  let i=97;
+  let a='';
+  while(i <123)
   {
-    return 0
+    a+=String.fromCharCode(i)
+    i++
   }
-  return a+b
+  return a
 };
