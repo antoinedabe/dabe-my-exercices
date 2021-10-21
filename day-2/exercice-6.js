@@ -29,6 +29,3 @@ export const my_display_unicode = (arr) => {
     }
     return resarr;
 }
-
-let fruits = ['43', 'Z'];
-console.log(my_display_unicode(fruits))
